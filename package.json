@@ -6,10 +6,7 @@
   "scripts": {
     "commit": "npx git-cz",
     "prepare": "husky install",
-    "docs:dev": "pnpm --filter=docs docs:dev",
-    "docs:clean": "pnpm --filter=docs docs:clean",
-    "docs:build": "pnpm --filter=docs docs:build",
-    "docs:serve": "pnpm --filter=docs docs:serve"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
