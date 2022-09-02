@@ -1,0 +1,22 @@
+{
+  "name": "@yunxiu/vuepress-plugins",
+  "private": true,
+  "main": "index.ts",
+  "version": "1.0.0",
+  "description": "Vuepress Plugins.",
+  "devDependencies": {
+    "vite": "^3.0.9",
+    "vue": "^3.2.38"
+  },
+  "dependencies": {
+    "@vuepress/cli": "2.0.0-beta.45",
+    "@vuepress/client": "2.0.0-beta.49",
+    "@vuepress/core": "2.0.0-beta.49",
+    "@vuepress/markdown": "2.0.0-beta.49",
+    "@vuepress/plugin-prismjs": "2.0.0-beta.49",
+    "@vuepress/utils": "2.0.0-beta.49",
+    "@vueuse/core": "^9.1.1",
+    "posthtml-parser": "^0.11.0",
+    "posthtml-render": "^3.0.0"
+  }
+}
