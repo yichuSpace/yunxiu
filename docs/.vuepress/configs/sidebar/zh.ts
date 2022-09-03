@@ -7,7 +7,11 @@ export const zh: SidebarConfig = {
       children: [
         {
           text: "Button 按钮",
-          link: "/../packages/yunxiu-ui/src/button/README.md",
+          link: "/components/button/",
+        },
+        {
+          text: "BackTop 回到顶部",
+          link: "/components/data-table/",
         },
       ],
     },

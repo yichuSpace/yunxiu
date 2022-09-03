@@ -12,5 +12,9 @@
   "license": "ISC",
   "peerDependencies": {
     "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "vue": "^3.2.38",
+    "yunxiu-next": "1.0.0-alpha.1"
   }
 }
