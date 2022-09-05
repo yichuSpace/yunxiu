@@ -9,7 +9,10 @@
     "docs:dev": "pnpm --filter=docs docs:dev",
     "docs:clean": "pnpm --filter=docs docs:clean",
     "docs:build": "pnpm --filter=docs docs:build",
-    "docs:serve": "pnpm --filter=docs docs:serve"
+    "docs:serve": "pnpm --filter=docs docs:serve",
+    "ui:test": "pnpm --filter=yunxiu-ui test",
+    "ui:test:ui": "pnpm --filter=yunxiu-ui test:ui",
+    "ui:test:coverage": "pnpm --filter=yunxiu-ui test:coverage"
   },
   "keywords": [],
   "author": "",
