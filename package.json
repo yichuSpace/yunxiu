@@ -22,6 +22,8 @@
     "@commitlint/config-conventional": "^17.1.0",
     "@yunxiu/eslint-config": "workspace:^1.0.0",
     "@yunxiu/stylelint-config": "workspace:^1.0.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.23.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
