@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/yunxiu-next/lib/styles/index.css" />
+  <link rel="stylesheet" href="./node_modules/@yunxiu/yunxiu-ui/dist/index.css" />
+  <title>Esm App</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://esm.sh/vue/dist/vue.esm-bundler.js",
+          "vant": "https://esm.sh/yunxiu-next/lib/yunxiu-next.esm.js",
+          "@yunxiu/yunxiu-ui": "./node_modules/@yunxiu/yunxiu-ui/dist/index.mjs"
+        }
+      }
+    </script>
+  <script type="module">
+    import { createApp } from 'vue'
+    import YunxiuNext from 'yunxiu-next'
+    import YunxiuUI from '@yunxiu/yunxiu-ui'
+
+    const app = createApp({
+      template: `
+         <yun-button></yun-button>
+        `,
+    })
+
+    app.use(YunxiuNext)
+    app.use(YunxiuUI)
+    app.mount('#app')
+
+    console.log(YunxiuNext, YunxiuUI)
+  </script>
+</body>
+
+</html>
