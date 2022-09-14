@@ -1,15 +1,15 @@
 <template>
   <div>
-    <yun-table></yun-table>
+    <!-- <YunTable></YunTable> -->
   </div>
 </template>
 
 <script lang="ts" setup>
 import { onMounted } from "vue";
-import { YunTable } from "yunxiu-next";
+// import { YunTable } from "yunxiu-next";
 import { yunDataTableProps } from "./props";
 const props = defineProps(yunDataTableProps);
-defineOptions({
-  name: "YunDataTable",
-});
+// defineOptions({
+//   name: "YunDataTable",
+// });
 </script>

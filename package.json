@@ -10,6 +10,7 @@
     "docs:clean": "pnpm --filter=docs docs:clean",
     "docs:build": "pnpm --filter=docs docs:build",
     "docs:serve": "pnpm --filter=docs docs:serve",
+    "ui:build": "pnpm --filter=yunxiu-ui build",
     "ui:gen": "pnpm --filter=yunxiu-ui gen",
     "ui:test": "pnpm --filter=yunxiu-ui test",
     "ui:test:ui": "pnpm --filter=yunxiu-ui test:ui",
@@ -19,7 +20,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "^3.2.38"
+    "vue": "^3.2.38",
+    "yunxiu-next": "1.0.0-alpha.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
