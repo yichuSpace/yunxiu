@@ -1,13 +1,13 @@
 {
   "name": "@yunxiu/examples",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@yunxiu/yunxiu-ui": "workspace:^1.0.0",
+    "@yunxiu/yunxiu-ui": "workspace:^2.0.0",
     "vue": "^3.2.37",
     "yunxiu-next": "1.0.0-alpha.1"
   },
