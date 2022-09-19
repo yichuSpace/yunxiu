@@ -1,6 +1,7 @@
 {
   "name": "@yunxiu/docs",
   "version": "2.0.0",
+  "private": true,
   "description": "",
   "scripts": {
     "docs:build": "vuepress build --clean-cache",

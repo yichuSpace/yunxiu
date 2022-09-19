@@ -8,6 +8,15 @@
   "types": "es/index.d.ts",
   "unpkg": "dist/index.min.js",
   "jsdelivr": "dist/index.min.js",
+  "files": [
+    "es",
+    "lib",
+    "dist",
+    "global.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "gulp --require @esbuild-kit/cjs-loader -f scripts/build/index.ts",
     "gen": "tsx scripts/generate/component.ts",

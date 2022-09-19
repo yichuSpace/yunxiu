@@ -1,5 +1,6 @@
 {
   "name": "yunxiu",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,14 +15,15 @@
     "ui:gen": "pnpm --filter=yunxiu-ui gen",
     "ui:test": "pnpm --filter=yunxiu-ui test",
     "ui:test:ui": "pnpm --filter=yunxiu-ui test:ui",
-    "ui:test:coverage": "pnpm --filter=yunxiu-ui test:coverage"
+    "ui:test:coverage": "pnpm --filter=yunxiu-ui test:coverage",
+    "release": "pnpm --recursive --stream build && changeset publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@vue/runtime-core": "^3.2.39",
-    "@yunxiu/yunxiu-ui": "workspace:^1.0.0",
+    "@yunxiu/yunxiu-ui": "workspace:^2.0.0",
     "vue": "^3.2.38",
     "yunxiu-next": "1.0.0-alpha.1"
   },
@@ -29,8 +31,8 @@
     "@changesets/cli": "^2.24.4",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@yunxiu/eslint-config": "workspace:^1.0.0",
-    "@yunxiu/stylelint-config": "workspace:^1.0.0",
+    "@yunxiu/eslint-config": "workspace:^2.0.0",
+    "@yunxiu/stylelint-config": "workspace:^2.0.0",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.23.0",
